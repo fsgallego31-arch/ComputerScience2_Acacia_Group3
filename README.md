@@ -1,22 +1,27 @@
-# Project_Template_ComputerScience2
+# Students Savings and Expenses Tracker
 
-# 📊 Data Insights Dashboard Project
+*Team:* Group 3 – Acacia  
+*Course:* Computer Science 2 
 
-This repository serves as a STARTER TEMPLATE for the Yearlong Programming Project.
+## Members
+- Abbas, Cassadee Illiana B.
+- Arboleda, Paulyn Lia
+- Bocol, Yuan Alyanna Y.
+- Dequinto, Marco Faustino M.
+- Gallego, Folyn S.
 
-## 📂 Repository Structure
-- `/data` → Contains sample JSON datasets you can choose from.
-- `/docs` → Place your project proposal and related documentation here.
-- `README.md` → Basic introduction to your project.
+---
 
-## Instructions:
-1. Choose a dataset from the `/data` folder (e.g., students.json, sales.json, movies.json, etc.).
-2. Write your Project Proposal using the provided template (`/docs/proposal_template.md`).
-3. Update this `README.md` to describe your project idea.
-4. Commit and push your changes to GitHub.
+## Project Overview
+The *Students Savings and Expenses Tracker* is a Python-based personal finance application designed to help students manage their allowances, record daily expenses, set dynamic daily spending limits, and build consistent saving habits through named savings jars. All records are stored persistently using JSON files so user data remains accessible across sessions.
 
-##  Getting Started
-- Fork or clone this repository.
-- Open the datasets in the `/data` folder to explore the contents.
-- Follow the proposal template to draft your plan.
+---
 
+## Problem Statement
+Many students around campus struggle to keep track of their daily spending and savings. Without structured budgeting and monitoring, it is easy to overspend early in the week and run short later on. This application helps students monitor where their allowance goes, adjust daily spending limits when overspending occurs, and track progress toward personal savings goals.
+
+---
+
+## Planned Features
+1. *Allowance Setup* – Configure regular allowance amounts, frequency, and starting savings balances.
+2. *Daily Expense Logger* – Add, view, update, and delete daily expenses with dates, amounts, categories, and notes
